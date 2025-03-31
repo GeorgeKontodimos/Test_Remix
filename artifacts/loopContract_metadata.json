@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -40,7 +40,7 @@
 		"compilationTarget": {
 			"loops.sol": "loopContract"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,10 +53,11 @@
 	},
 	"sources": {
 		"loops.sol": {
-			"keccak256": "0xc8979f7b40c62533fa8d305b01908d18d04c7123e26f652fcd8681d1adeafd7a",
+			"keccak256": "0x37f9536cb4a7533384f64d7d0a61b13a9300403b03be35675e52734e8f4f8f9b",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5afb613e676d6a28890a19ee825f01ce56e9ce7b935c4e91c9466c813102a8d",
-				"dweb:/ipfs/QmeQRSLue2KCVqiyTb85j7WwwNYQAcL2M7MHYmQSDvm32N"
+				"bzz-raw://91a3c26497b42813827c2d7163d79aef47d77c07f368f39fefd3d64718150d80",
+				"dweb:/ipfs/QmRLdTcrBEjGoCvUg74eq2721ceuZyaW7vZKJ4vP9uKgLT"
 			]
 		}
 	},

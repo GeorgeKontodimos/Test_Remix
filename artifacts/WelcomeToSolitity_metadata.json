@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -20,7 +20,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -39,7 +39,7 @@
 		"compilationTarget": {
 			"welcome-to-solidity.sol": "WelcomeToSolitity"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -52,10 +52,11 @@
 	},
 	"sources": {
 		"welcome-to-solidity.sol": {
-			"keccak256": "0x7b0d42b8c1826464a209f794ca708ce31a5ca5deda92e124e2fe7ccebb5c352e",
+			"keccak256": "0x1fc67dfde58ace29275eddfc99babbc31a602ea9124c3dd398d0fedae5b6581a",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://604cc18f737d7526c7f090df2dbe8e45c8ecf6ade386d30f38f0c515c7b26c8f",
-				"dweb:/ipfs/QmTN55jspWQeDcj3RAcDYHopwjTkRcMeidisJdTSKBGdxz"
+				"bzz-raw://6d2b37ebd2ceb307dd92cc4f342ce6414909d09cc6d4de5ed2d5d9c08dadfc4d",
+				"dweb:/ipfs/Qmdqp5phMuA8CZaDRnXKpk9xARWZuQSDZb29JiPJBBfuUL"
 			]
 		}
 	},

@@ -1,12 +1,12 @@
+// SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract WelcomeToSolitity {
-    constructor() public{
+    constructor() {
     }
-    function getResult() public view returns (uint){
-        uint a = 1;
+    function getResult() public pure returns (uint){
+         uint  a = 1;
         uint b = 2;
-        uint result = (a + b)*5;
-        return result;
+        return (a + b)*5;
     }
 }
