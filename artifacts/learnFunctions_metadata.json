@@ -1,19 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "addNewValues",
+				"inputs": [],
+				"name": "_add",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,94 +15,41 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "b",
+						"name": "x",
 						"type": "uint256"
-					}
-				],
-				"name": "addfValues",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					}
-				],
-				"name": "divideCalculatorByFour",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					}
-				],
-				"name": "multiplyCalculatorByFour",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "closedDoor",
-						"type": "bool"
 					},
 					{
-						"internalType": "bool",
-						"name": "openDoor",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
 					}
 				],
-				"name": "remoteControlOpen",
+				"name": "_multi",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"_add()": {
+					"details": "This is a private function. It is not accessible to other contracts or functions within the same contract. The keyword \"private\" makes it so that it can only be used by the contract itself.  "
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
@@ -119,9 +60,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"debug-assignment.sol": "learnFunctions"
+			"functions.sol": "learnFunctions"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -133,11 +74,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"debug-assignment.sol": {
-			"keccak256": "0x5c1d49e6e394c793f9ae8c9fc58a1812046e941b9e2c259c494a8ba1d9343e56",
+		"functions.sol": {
+			"keccak256": "0x84ae07dde8ea35ec7e5bd5e309e7ed1486e281bb74e9a3954090313253bc765e",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://9ec30998ed5b958716638b9e91fe0ac95e5885f23a59a382302addf21de87a4c",
-				"dweb:/ipfs/Qmf4nhHgKM7DaZ8q21jsZksDTgAsk7RVevTHdB5H751uYN"
+				"bzz-raw://cfb1c5af10a9a28cff60a04d7e3337d89a200b0171bb7dc70440adcc1ad75aaa",
+				"dweb:/ipfs/QmaA5NcWpqK3SiE6CbnsWD8xsJW23jzDxYin7hvBapYKdB"
 			]
 		}
 	},
