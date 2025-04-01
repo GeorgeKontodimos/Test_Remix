@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPow2Of3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"view-pure-constant-modifiers.sol": "MyContarct"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"view-pure-constant-modifiers.sol": {
+			"keccak256": "0x933174f1470395732a10ce8c37fd379b9c8b380f95d48518d48ab6aba9373523",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90269cd4b3871441029e518b8bce8126fd5dede4675f80e886ea6d73d140f99b",
+				"dweb:/ipfs/QmeaPrf85Jv721KuirnqV2SHe9S4RZBkpdTeXcrTUC3yGx"
+			]
+		}
+	},
+	"version": 1
+}

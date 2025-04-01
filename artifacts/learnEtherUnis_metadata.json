@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ether-units-denomination.sol": "learnEtherUnis"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ether-units-denomination.sol": {
+			"keccak256": "0xac7856b9c079ac594dd962956b1a758ccdaf10971e8723327f65ba1bab6de95f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0c924debb89444b53b0e54860aafec8c20a44f5803fc63a5082b473e6426d1f5",
+				"dweb:/ipfs/QmWkEMt9K85enQeXtJkdT3qtfGPp4zzMhwd1QeRtNVPiZG"
+			]
+		}
+	},
+	"version": 1
+}

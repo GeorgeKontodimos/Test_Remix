@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "updatesBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"global-variables.sol": "LedgerBalance"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"global-variables.sol": {
+			"keccak256": "0x2c8fcb1311976022559387f88276255c900b176425873b4f7f7125823a4846a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3cda790da3e8c2933fca44fda3e945e8aeca654a14e11e89dfab85f34490ea2",
+				"dweb:/ipfs/QmdWdN4UtWvkuwXGmgbKmgg3FBdhSMAMHCwSrcNepAnsEW"
+			]
+		}
+	},
+	"version": 1
+}
