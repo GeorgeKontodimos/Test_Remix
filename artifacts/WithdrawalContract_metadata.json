@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawFunds",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WithdraDunds.sol": "WithdrawalContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WithdraDunds.sol": {
+			"keccak256": "0xf0663e439a1194a9d56cea9bc6613f67b7c88c8711cadf7298ec66b4f4af2664",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d53318c4f647dc5bf18e6855eb32a4eac8407dc66b059c211648f4ef221799b4",
+				"dweb:/ipfs/QmTsscbfsfSYuqGdaHGpzToD8QSDkTjg2uQZBh17T4J4SU"
+			]
+		}
+	},
+	"version": 1
+}

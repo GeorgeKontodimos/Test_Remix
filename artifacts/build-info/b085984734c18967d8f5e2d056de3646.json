@@ -1,0 +1,72 @@
+{
+	"id": "b085984734c18967d8f5e2d056de3646",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"WithdraDunds.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity >= 0.7.0 < 0.9.0;\r\n\r\n/*\r\nIt is not safe to interact with more than one customer \r\nat atime so write a function to return funds \r\nusing withdrawl pattern.\r\n\r\n1.Write a function called withdrawFunds that takes an amount and returns bool successin the signature.\r\n2.Require that the balance of the caurrent caller is greater than or equal to the amount.\r\n3.Substract the amount from the balance of the current sender.balance.\r\n4.Transfer the amount over and return the trueness of the function.\r\n\r\n*/\r\n/*\r\ncontract WithdrawalContract {\r\n    mapping(address => uint) private balance;\r\n\r\n    function withdrawFunds(uint _amount) public returns (bool success){\r\n        require(balance[msg.sender]>=_amount); // guards upfront\r\n        balance[msg.sender] -= _amount;  // optimistic accounting\r\n        payable (msg.sender).transfer(_amount); // transfer\r\n        return true;\r\n    }\r\n\r\n}\r\n*/"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"WithdraDunds.sol": {
+				"ast": {
+					"absolutePath": "WithdraDunds.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:33:0"
+						}
+					],
+					"src": "33:902:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
