@@ -25,5 +25,11 @@ contract test{
     }
 
 
+fallback() external payable { 
+    for (uint i = 0 ;funders.length>0;) {
+        funders[i].transfer(cntributeAmount);
+    }
+}
+
 }
 
