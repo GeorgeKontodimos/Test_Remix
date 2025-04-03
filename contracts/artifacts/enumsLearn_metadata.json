@@ -53,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Enums.sol": "enumsLearn"
+			"contracts/Enums.sol": "enumsLearn"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -67,7 +67,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Enums.sol": {
+		"contracts/Enums.sol": {
 			"keccak256": "0x0abdf29425ced6e4848001989fd64e7467277bbaea3c5e57819e2583addf8f21",
 			"license": "MIT",
 			"urls": [

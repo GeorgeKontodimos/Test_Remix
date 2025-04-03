@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AdvancedI/entrance-exam.sol": "D"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AdvancedI/entrance-exam.sol": {
+			"keccak256": "0x800b481993cccd60df77a17521dbc8806923c2c24a4edeeef1d8b9acbef4cbee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c1afcad4d54f0b26ab376a28ca24c8b1d128bf0b6d247a4c0b4428783587105",
+				"dweb:/ipfs/QmQGzFMQy9YAUFvFERgy4pYPV4QdWF91pMh9KNbQemuv83"
+			]
+		}
+	},
+	"version": 1
+}
