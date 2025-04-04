@@ -6,29 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "addToEVM",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "addToEVM2",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "success",
-						"type": "bool"
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "offset",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "addToEVM3",
-				"outputs": [],
+				"name": "read",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "result",
+						"type": "bytes32"
+					}
+				],
 				"stateMutability": "pure",
 				"type": "function"
 			}
@@ -46,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Assemply-EVM-OpCodes.sol": "LearnAssembly"
+			"Assemply-EVM-OpCodes.sol": "ReadBytes32FromBytes"
 		},
 		"evmVersion": "london",
 		"libraries": {},
