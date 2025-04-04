@@ -6,35 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "getCount",
+				"inputs": [],
+				"name": "getReserves",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint112",
 						"name": "",
-						"type": "uint256"
+						"type": "uint112"
+					},
+					{
+						"internalType": "uint112",
+						"name": "",
+						"type": "uint112"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_couner",
-						"type": "address"
-					}
-				],
-				"name": "incrementCounter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learn-interfaces.sol": "MyContract"
+			"Learn-interfaces.sol": "MyContractTwo"
 		},
 		"evmVersion": "london",
 		"libraries": {},

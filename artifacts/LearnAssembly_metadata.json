@@ -7,22 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "addToEVM",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "addToEVM2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learn-interfaces.sol": "Counter"
+			"Assemply-EVM-OpCodes.sol": "LearnAssembly"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learn-interfaces.sol": {
-			"keccak256": "0xcc6c22ba962e65625542d81997e3e44d903a5e5ec9833481c0e61458cc3406c4",
+		"Assemply-EVM-OpCodes.sol": {
+			"keccak256": "0x5c9377b42e486d8efbda6a2adbf1aa2b349794f85bf8cf63857ecea1b02999ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c871174ca3d60280499725c997097ffb498fbebeb2f424e5fccc3d08cd9a9b62",
-				"dweb:/ipfs/QmUR4wypaZqWRuwVEEw5ZFzLZLNpko35mB5zmAu8M64ZZo"
+				"bzz-raw://25863f0064387b64547692f4a6313690786b47dbf1b896e409ced33ef23ffb3a",
+				"dweb:/ipfs/QmNrCkgqp4GrV1Wj5eKnp42FoN1gugtv1xNE6aZkLyjoC5"
 			]
 		}
 	},

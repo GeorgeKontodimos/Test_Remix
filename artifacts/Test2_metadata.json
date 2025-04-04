@@ -6,14 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
 					}
 				],
-				"name": "getCount",
+				"name": "testFunction",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,19 +27,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_couner",
-						"type": "address"
-					}
-				],
-				"name": "incrementCounter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learn-interfaces.sol": "MyContract"
+			"learn-libraries.sol": "Test2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learn-interfaces.sol": {
-			"keccak256": "0xcc6c22ba962e65625542d81997e3e44d903a5e5ec9833481c0e61458cc3406c4",
+		"learn-libraries.sol": {
+			"keccak256": "0xce5ed1de86badd81bb527492338c8d5937b488a3903d4f952acfd0d5745929a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c871174ca3d60280499725c997097ffb498fbebeb2f424e5fccc3d08cd9a9b62",
-				"dweb:/ipfs/QmUR4wypaZqWRuwVEEw5ZFzLZLNpko35mB5zmAu8M64ZZo"
+				"bzz-raw://1982677d9e6ba74a0f2d7fa88bcf50fae8c68408d58e4a33483c08da88b7c87b",
+				"dweb:/ipfs/QmQHdsXPggGbG5vcfmpqqqi2axfFERYGAziKGWkmLmxKZK"
 			]
 		}
 	},
