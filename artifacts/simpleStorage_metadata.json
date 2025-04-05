@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wxercises-solidity.sol": "simpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wxercises-solidity.sol": {
+			"keccak256": "0xec83e474bf5984624a61a2021dfdfabd9138fe694601c7724590ce37bfebd876",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c427261e6b984bc3e0d88f8ab3ce54c6d7f8c5d362479478800138966e3afe45",
+				"dweb:/ipfs/QmVpezrMRRKvomAmqkSwaBiGRadxaygTPYXJHiAMGJmRts"
+			]
+		}
+	},
+	"version": 1
+}

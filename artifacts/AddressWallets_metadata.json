@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkInvestors",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "payInvestors",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pay-investors-solution.sol": "AddressWallets"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pay-investors-solution.sol": {
+			"keccak256": "0x60a341accc48135f9ebaa239ee5f102d7a6b8aa2c931e0b3d04c6c9ce666a7dd",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2088f2ec2f6b534526edd6454880cd89726b46e3571d5d73df1e8e82d5578524",
+				"dweb:/ipfs/QmXjxKWMLvhvoKmB1fWRLGDTaV7mxTJDFoqi3xAKy11Phg"
+			]
+		}
+	},
+	"version": 1
+}
