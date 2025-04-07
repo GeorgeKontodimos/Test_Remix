@@ -11,6 +11,13 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "hasDeceased",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -57,11 +64,11 @@
 	},
 	"sources": {
 		"will.sol": {
-			"keccak256": "0x8e92e133fb171b81a891a4d745d440e56ea036d8cbdb75992ee1376655f6c0dc",
+			"keccak256": "0x1ff38d0e36411d3c86deae1563b13af2acaae496b29e3c9017a63754a3d1ef5e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://4a4f346611b42ee1a9cf25fc751ed7dd327641e45c6281a949a9b6f3208e53b9",
-				"dweb:/ipfs/QmNRUgdVfTUrteZZxyvbnJHUgF5XdVpryzjZx8T7Xioeji"
+				"bzz-raw://dfee431a3cdc545b1e66ddf13ec2145769b17fd59741b920bf14181998eb42f1",
+				"dweb:/ipfs/QmSg7EWDTkSvBbKR1SzuiwVciwpwPfTH7mHFc6WPXG5gy7"
 			]
 		}
 	},

@@ -6,9 +6,9 @@ contract will{
     uint fortune;
     bool deceased;
     constructor () payable{
-        owner=msg.sender;
-            fortune=msg.value;
-        deceased =false;
+        owner = msg.sender;
+        fortune = msg.value;
+        deceased = false;
     }
     modifier onlyOwner{
         require (owner==msg.sender);
@@ -36,4 +36,9 @@ contract will{
         }
     }
 
+    // oracle simulated switch
+    function hasDeceased() public onlyOwner{
+        deceased=true;
+        payout();
+    }
 }
