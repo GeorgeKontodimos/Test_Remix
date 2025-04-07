@@ -6,130 +6,59 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "wallet",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "InvestorAdded",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "wallet",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "PaymentSent",
-				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "wallet",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "addInvestor",
-				"outputs": [],
+				"inputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Sent",
+				"type": "event"
 			},
 			{
 				"inputs": [
-					{
-						"internalType": "address",
-						"name": "wallet",
-						"type": "address"
-					}
-				],
-				"name": "getInvestorAmount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getInvestorCount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getValidatorAddress",
-				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "balances",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "investorWallets",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "recipient",
+						"internalType": "address",
+						"name": "receiver",
 						"type": "address"
 					},
 					{
@@ -138,7 +67,38 @@
 						"type": "uint256"
 					}
 				],
-				"name": "sendPayment",
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "send",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -157,7 +117,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"pay-investors-solution.sol": "AddressWallets"
+			"subcurrency.sol": "Coin"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -171,12 +131,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"pay-investors-solution.sol": {
-			"keccak256": "0xcb2a2a8b7a306ea9be903cb4b328a87542f209d2d84d9715f9c4fa4bb3dba806",
-			"license": "UNLICENSED",
+		"subcurrency.sol": {
+			"keccak256": "0xb558cf7de28e96fdb9fe078ce13e6e9c21b94cbc5289c77c43f2b22fde2872fc",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://4187ead18f322cd9dd7b4cd1c800a3a59280813c68a3f1d906eb8dff09549385",
-				"dweb:/ipfs/QmSEGq7Vz7hQQBA3qQNKcnbpEkFtNLQaqKsnnXQozQkcFW"
+				"bzz-raw://c21d338f5b9afbf2e98bd40136f10ef1a643d46fc098e3acd7906052ded49762",
+				"dweb:/ipfs/QmcBpwnmy6FNwAQdzVLdyJg5pSLU8pPtiuN5VAhsg3AjSG"
 			]
 		}
 	},
